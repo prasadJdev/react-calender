@@ -1,0 +1,128 @@
+.input {
+  width: 100%;
+  margin-top: 1rem;
+}
+.fc-toolbar-title {
+  text-transform: uppercase;
+  line-height: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fc-today-button {
+  text-transform: capitalize !important;
+}
+thead {
+  height: 50px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.fc-col-header-cell {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.5s;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.fc-col-header-cell:hover {
+  background-color: #776f6f;
+  color: rgb(228, 223, 223);
+  transition: all 0.5s;
+}
+.fc-day-sun.fc-daygrid-day {
+  color: red;
+}
+.fc-day-sun.fc-daygrid-day:hover {
+  background-color: rgba(255, 0, 0, 0.404);
+  color: #fff;
+}
+.fc-day-mon.fc-daygrid-day,
+.fc-day-tue.fc-daygrid-day,
+.fc-day-wed.fc-daygrid-day,
+.fc-day-thu.fc-daygrid-day,
+.fc-day-fri.fc-daygrid-day {
+  color: blue;
+}
+
+.fc-day-mon.fc-daygrid-day:hover,
+.fc-day-tue.fc-daygrid-day:hover,
+.fc-day-wed.fc-daygrid-day:hover,
+.fc-day-thu.fc-daygrid-day:hover,
+.fc-day-fri.fc-daygrid-day:hover {
+  color: #fff;
+  background-color: rgba(57, 84, 240, 0.404);
+  -webkit-box-shadow: 16px -14px 20px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 16px -14px 20px -21px rgba(0, 0, 0, 0.75);
+  box-shadow: 16px -14px 20px -21px rgba(0, 0, 0, 0.75);
+}
+
+.fc-day-sat.fc-daygrid-day {
+  color: green;
+}
+.fc-day-sat.fc-daygrid-day:hover {
+  color: #fff;
+  background-color: rgba(30, 170, 30, 0.63);
+  -webkit-box-shadow: 16px -14px 20px -21px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 16px -14px 20px -21px rgba(0, 0, 0, 0.75);
+  box-shadow: 16px -14px 20px -21px rgba(0, 0, 0, 0.75);
+}
+
+table,
+td,
+tr,
+th {
+  border: none !important;
+  transition: all 0.5s;
+}
+td,
+tr {
+  border-radius: 5px;
+}
+
+.fc-day-today .fc-daygrid-day-frame .fc-daygrid-day-top a {
+  color: white;
+  background-color: red;
+  border-radius: 100%;
+}
+
+.fc-event.fc-event-end.fc-h-event {
+  background: #000;
+  border: none;
+}
+.card {
+  -webkit-box-shadow: -14px -6px 27px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -14px -6px 27px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: -14px -6px 27px -22px rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 255, 0.253);
+}
+body {
+  background-color: rgba(0, 0, 255, 0.103);
+}
+
+.app {
+  width: 100%;
+  max-width: 300px;
+  height: 350px;
+  overflow: scroll;
+  overflow-x: scroll;
+
+  background-color: #fff;
+  object-fit: cover;
+  background-size: cover;
+  -webkit-box-shadow: -11px 15px 25px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 15px 25px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: -11px 15px 25px -10px rgba(0, 0, 0, 0.75);
+}
+
+.events {
+  text-transform: capitalize;
+  background-color: rgba(255, 115, 0, 0.397);
+  margin: 1rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+}
